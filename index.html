@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heatwave's Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom, #2b2d42, #3d405b);
+            color: white;
+        }
+        .content {
+            text-align: center;
+            max-width: 600px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 30px;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.1s;
+            background: linear-gradient(135deg, #5d70f9, #4a5bda);
+            color: white;
+            background-size: 200% 200%;
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            background-position: 100% 0;
+        }
+        .button-blue {
+            background: linear-gradient(135deg, #5d70f9, #4a5bda);
+        }
+        .button-purple {
+            background: linear-gradient(135deg, #8e7cf5, #7e66c4);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Hi there, I'm Heatwave</h1>
+        <p>I'm trying to make a career out of software engineering, and in my spare time I like to play games such as Geometry Dash and Minecraft. Below you can find some of my projects.</p>
+        <div class="buttons">
+            <a href="https://heatwave3.github.io/pear/" class="button button-blue">Get Peared</a>
+            <a href="https://heatwave3.github.io/audiovisualizer/" class="button button-purple">Audio Visualizer</a>
+        </div>
+    </div>
+</body>
+</html>
